@@ -19,7 +19,7 @@ struct ContentView: View {
         HStack(spacing: 10) {
             VStack(){
             let name="Eric"
-            Text("Hello, Braille! testje een andere wijziging 2")
+            Text("Hello, Braille!")
             Text(name)
             Spacer()
             Text("""
