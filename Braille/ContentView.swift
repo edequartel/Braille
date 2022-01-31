@@ -9,7 +9,6 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Color=
         VStack(){
         HStack(){
             Text("Top")
@@ -20,7 +19,7 @@ struct ContentView: View {
         HStack(spacing: 10) {
             VStack(){
             let name="Eric"
-            Text("Hello, Braille!")
+            Text("Hello, Braille! testje")
             Text(name)
             Spacer()
             Text("""
