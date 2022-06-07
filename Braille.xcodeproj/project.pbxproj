@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4704EFCE2849CB8000A6E0B0 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4704EFCD2849CB8000A6E0B0 /* SplashScreenView.swift */; };
+		471D58402804550B00230C4D /* iTextField in Frameworks */ = {isa = PBXBuildFile; productRef = 471D583F2804550B00230C4D /* iTextField */; };
+		471D58432804553D00230C4D /* SwiftUIX in Frameworks */ = {isa = PBXBuildFile; productRef = 471D58422804553D00230C4D /* SwiftUIX */; };
+		47243F692804354D0052C0EA /* iTextField in Frameworks */ = {isa = PBXBuildFile; productRef = 47243F682804354D0052C0EA /* iTextField */; };
+		476121C027E99CD6006F6D4F /* SearchWordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476121BF27E99CD6006F6D4F /* SearchWordView.swift */; };
+		4769CDF12844B36500D1BA93 /* bartimeus6dots.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4769CDF02844B36500D1BA93 /* bartimeus6dots.ttf */; };
 		476C31B9279EB25C004D1133 /* BrailleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476C31B8279EB25C004D1133 /* BrailleApp.swift */; };
 		476C31BB279EB25C004D1133 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476C31BA279EB25C004D1133 /* ContentView.swift */; };
 		476C31BD279EB25D004D1133 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 476C31BC279EB25D004D1133 /* Assets.xcassets */; };
 		476C31C0279EB25D004D1133 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 476C31BF279EB25D004D1133 /* Preview Assets.xcassets */; };
-		476C31CA279EB25D004D1133 /* BrailleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476C31C9279EB25D004D1133 /* BrailleTests.swift */; };
-		476C31D4279EB25D004D1133 /* BrailleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476C31D3279EB25D004D1133 /* BrailleUITests.swift */; };
-		476C31D6279EB25D004D1133 /* BrailleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476C31D5279EB25D004D1133 /* BrailleUITestsLaunchTests.swift */; };
+		4791346B283255B100DDEC94 /* methods.json in Resources */ = {isa = PBXBuildFile; fileRef = 4791346A283255B100DDEC94 /* methods.json */; };
+		4791346D283255C400DDEC94 /* methods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4791346C283255C400DDEC94 /* methods.swift */; };
+		47B8435727DF31E80079E188 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B8435627DF31E80079E188 /* SettingsView.swift */; };
+		47B8435927DF331E0079E188 /* InformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B8435827DF331E0079E188 /* InformationView.swift */; };
+		47B8435B27DF33320079E188 /* PlaygroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B8435A27DF33320079E188 /* PlaygroundView.swift */; };
+		47B8435D27DF353F0079E188 /* AudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B8435C27DF353F0079E188 /* AudioView.swift */; };
+		47FABF7927D9C8D600774CF6 /* sample4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47FABF7427D9C8D600774CF6 /* sample4.mp3 */; };
+		47FABF7A27D9C8D600774CF6 /* sample2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47FABF7527D9C8D600774CF6 /* sample2.mp3 */; };
+		47FABF7B27D9C8D600774CF6 /* sample3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47FABF7627D9C8D600774CF6 /* sample3.mp3 */; };
+		47FABF7C27D9C8D600774CF6 /* sample1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47FABF7727D9C8D600774CF6 /* sample1.mp3 */; };
+		47FABF7D27D9C8D600774CF6 /* Symphony No.6 (1st movement).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47FABF7827D9C8D600774CF6 /* Symphony No.6 (1st movement).mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +48,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		476C31B5279EB25C004D1133 /* Braille.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Braille.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4704EFCD2849CB8000A6E0B0 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		476121BF27E99CD6006F6D4F /* SearchWordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchWordView.swift; sourceTree = "<group>"; };
+		4769CDF02844B36500D1BA93 /* bartimeus6dots.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bartimeus6dots.ttf; sourceTree = "<group>"; };
+		476C31B5279EB25C004D1133 /* iBraille.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBraille.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		476C31B8279EB25C004D1133 /* BrailleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrailleApp.swift; sourceTree = "<group>"; };
 		476C31BA279EB25C004D1133 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		476C31BC279EB25D004D1133 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		476C31BF279EB25D004D1133 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		476C31C5279EB25D004D1133 /* BrailleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrailleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		476C31C9279EB25D004D1133 /* BrailleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrailleTests.swift; sourceTree = "<group>"; };
 		476C31CF279EB25D004D1133 /* BrailleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrailleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		476C31D3279EB25D004D1133 /* BrailleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrailleUITests.swift; sourceTree = "<group>"; };
-		476C31D5279EB25D004D1133 /* BrailleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrailleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4791346A283255B100DDEC94 /* methods.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = methods.json; path = Braille/methods.json; sourceTree = SOURCE_ROOT; };
+		4791346C283255C400DDEC94 /* methods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = methods.swift; sourceTree = "<group>"; };
+		47B8435627DF31E80079E188 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		47B8435827DF331E0079E188 /* InformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationView.swift; sourceTree = "<group>"; };
+		47B8435A27DF33320079E188 /* PlaygroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundView.swift; sourceTree = "<group>"; };
+		47B8435C27DF353F0079E188 /* AudioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioView.swift; sourceTree = "<group>"; };
+		47FABF7427D9C8D600774CF6 /* sample4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sample4.mp3; sourceTree = "<group>"; };
+		47FABF7527D9C8D600774CF6 /* sample2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sample2.mp3; sourceTree = "<group>"; };
+		47FABF7627D9C8D600774CF6 /* sample3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sample3.mp3; sourceTree = "<group>"; };
+		47FABF7727D9C8D600774CF6 /* sample1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sample1.mp3; sourceTree = "<group>"; };
+		47FABF7827D9C8D600774CF6 /* Symphony No.6 (1st movement).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Symphony No.6 (1st movement).mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +76,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				471D58432804553D00230C4D /* SwiftUIX in Frameworks */,
+				471D58402804550B00230C4D /* iTextField in Frameworks */,
+				47243F692804354D0052C0EA /* iTextField in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,8 +103,6 @@
 			isa = PBXGroup;
 			children = (
 				476C31B7279EB25C004D1133 /* Braille */,
-				476C31C8279EB25D004D1133 /* BrailleTests */,
-				476C31D2279EB25D004D1133 /* BrailleUITests */,
 				476C31B6279EB25C004D1133 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,7 +110,7 @@
 		476C31B6279EB25C004D1133 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				476C31B5279EB25C004D1133 /* Braille.app */,
+				476C31B5279EB25C004D1133 /* iBraille.app */,
 				476C31C5279EB25D004D1133 /* BrailleTests.xctest */,
 				476C31CF279EB25D004D1133 /* BrailleUITests.xctest */,
 			);
@@ -94,9 +120,19 @@
 		476C31B7279EB25C004D1133 /* Braille */ = {
 			isa = PBXGroup;
 			children = (
+				4769CDF02844B36500D1BA93 /* bartimeus6dots.ttf */,
+				4791346A283255B100DDEC94 /* methods.json */,
+				4791346C283255C400DDEC94 /* methods.swift */,
 				476C31B8279EB25C004D1133 /* BrailleApp.swift */,
 				476C31BA279EB25C004D1133 /* ContentView.swift */,
+				4704EFCD2849CB8000A6E0B0 /* SplashScreenView.swift */,
+				47B8435627DF31E80079E188 /* SettingsView.swift */,
+				47B8435C27DF353F0079E188 /* AudioView.swift */,
+				47B8435827DF331E0079E188 /* InformationView.swift */,
+				47B8435A27DF33320079E188 /* PlaygroundView.swift */,
+				476121BF27E99CD6006F6D4F /* SearchWordView.swift */,
 				476C31BC279EB25D004D1133 /* Assets.xcassets */,
+				47FABF7327D9044300774CF6 /* Audio */,
 				476C31BE279EB25D004D1133 /* Preview Content */,
 			);
 			path = Braille;
@@ -110,21 +146,16 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		476C31C8279EB25D004D1133 /* BrailleTests */ = {
+		47FABF7327D9044300774CF6 /* Audio */ = {
 			isa = PBXGroup;
 			children = (
-				476C31C9279EB25D004D1133 /* BrailleTests.swift */,
+				47FABF7727D9C8D600774CF6 /* sample1.mp3 */,
+				47FABF7527D9C8D600774CF6 /* sample2.mp3 */,
+				47FABF7627D9C8D600774CF6 /* sample3.mp3 */,
+				47FABF7427D9C8D600774CF6 /* sample4.mp3 */,
+				47FABF7827D9C8D600774CF6 /* Symphony No.6 (1st movement).mp3 */,
 			);
-			path = BrailleTests;
-			sourceTree = "<group>";
-		};
-		476C31D2279EB25D004D1133 /* BrailleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				476C31D3279EB25D004D1133 /* BrailleUITests.swift */,
-				476C31D5279EB25D004D1133 /* BrailleUITestsLaunchTests.swift */,
-			);
-			path = BrailleUITests;
+			path = Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,8 +174,13 @@
 			dependencies = (
 			);
 			name = Braille;
+			packageProductDependencies = (
+				47243F682804354D0052C0EA /* iTextField */,
+				471D583F2804550B00230C4D /* iTextField */,
+				471D58422804553D00230C4D /* SwiftUIX */,
+			);
 			productName = Braille;
-			productReference = 476C31B5279EB25C004D1133 /* Braille.app */;
+			productReference = 476C31B5279EB25C004D1133 /* iBraille.app */;
 			productType = "com.apple.product-type.application";
 		};
 		476C31C4279EB25D004D1133 /* BrailleTests */ = {
@@ -215,6 +251,11 @@
 				Base,
 			);
 			mainGroup = 476C31AC279EB25C004D1133;
+			packageReferences = (
+				47243F672804354D0052C0EA /* XCRemoteSwiftPackageReference "iTextField" */,
+				471D583E2804550B00230C4D /* XCRemoteSwiftPackageReference "iTextField" */,
+				471D58412804553D00230C4D /* XCRemoteSwiftPackageReference "SwiftUIX" */,
+			);
 			productRefGroup = 476C31B6279EB25C004D1133 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,8 +272,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4791346B283255B100DDEC94 /* methods.json in Resources */,
 				476C31C0279EB25D004D1133 /* Preview Assets.xcassets in Resources */,
+				4769CDF12844B36500D1BA93 /* bartimeus6dots.ttf in Resources */,
+				47FABF7B27D9C8D600774CF6 /* sample3.mp3 in Resources */,
+				47FABF7C27D9C8D600774CF6 /* sample1.mp3 in Resources */,
+				47FABF7D27D9C8D600774CF6 /* Symphony No.6 (1st movement).mp3 in Resources */,
+				47FABF7A27D9C8D600774CF6 /* sample2.mp3 in Resources */,
 				476C31BD279EB25D004D1133 /* Assets.xcassets in Resources */,
+				47FABF7927D9C8D600774CF6 /* sample4.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +305,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47B8435727DF31E80079E188 /* SettingsView.swift in Sources */,
+				476121C027E99CD6006F6D4F /* SearchWordView.swift in Sources */,
+				4704EFCE2849CB8000A6E0B0 /* SplashScreenView.swift in Sources */,
+				47B8435D27DF353F0079E188 /* AudioView.swift in Sources */,
+				47B8435B27DF33320079E188 /* PlaygroundView.swift in Sources */,
+				4791346D283255C400DDEC94 /* methods.swift in Sources */,
+				47B8435927DF331E0079E188 /* InformationView.swift in Sources */,
 				476C31BB279EB25C004D1133 /* ContentView.swift in Sources */,
 				476C31B9279EB25C004D1133 /* BrailleApp.swift in Sources */,
 			);
@@ -266,7 +321,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				476C31CA279EB25D004D1133 /* BrailleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +328,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				476C31D6279EB25D004D1133 /* BrailleUITestsLaunchTests.swift in Sources */,
-				476C31D4279EB25D004D1133 /* BrailleUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,21 +474,23 @@
 				DEVELOPMENT_TEAM = 278BFDM8KA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Braille/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = www.tastenbraille.com.Braille;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tastenbraille.iBraille;
+				PRODUCT_NAME = iBraille;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -451,21 +505,23 @@
 				DEVELOPMENT_TEAM = 278BFDM8KA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Braille/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = www.tastenbraille.com.Braille;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tastenbraille.iBraille;
+				PRODUCT_NAME = iBraille;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -585,6 +641,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		471D583E2804550B00230C4D /* XCRemoteSwiftPackageReference "iTextField" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/benjaminsage/iTextField";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.8;
+			};
+		};
+		471D58412804553D00230C4D /* XCRemoteSwiftPackageReference "SwiftUIX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftUIX/SwiftUIX";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.2;
+			};
+		};
+		47243F672804354D0052C0EA /* XCRemoteSwiftPackageReference "iTextField" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/benjaminsage/iTextField";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		471D583F2804550B00230C4D /* iTextField */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 47243F672804354D0052C0EA /* XCRemoteSwiftPackageReference "iTextField" */;
+			productName = iTextField;
+		};
+		471D58422804553D00230C4D /* SwiftUIX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 471D58412804553D00230C4D /* XCRemoteSwiftPackageReference "SwiftUIX" */;
+			productName = SwiftUIX;
+		};
+		47243F682804354D0052C0EA /* iTextField */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 47243F672804354D0052C0EA /* XCRemoteSwiftPackageReference "iTextField" */;
+			productName = iTextField;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 476C31AD279EB25C004D1133 /* Project object */;
 }
